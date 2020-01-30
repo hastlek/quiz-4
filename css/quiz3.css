@@ -137,14 +137,14 @@ nav.menu ul li a:hover:after {
         display: none !important;
     }
     .label {
-        display: block !important;
+        display: flex !important;
         cursor: pointer;
     }
   
     .nav a {
         display: block;
         margin: 0;
-    }
+    } 
     .fa-bars {
         font-size: 26px;
         line-height: 70px;
@@ -157,26 +157,28 @@ nav.menu ul li a:hover:after {
     }
     nav li ul {
         visibility: hidden;
-    }
+    } 
 
-    nav ul{
+      nav ul{
         display: none !important;
+        margin-top: 20px;
     }
     .label{
         display: block !important;
         cursor: pointer;
     }
     .fa-bars{
+        display: contents;
         font-size: 2rem;
-        position: absolute;
+        position: relative;
         top: 1rem;
         right: 1rem;
         color: var(--text-color);
         z-index: 1;
     }
-    #toggle:checked+nav{
+    #toggle:checked+.nav{
         display: block !important;
-    }
+    } 
 }
 
 /* Features */

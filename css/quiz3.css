@@ -168,9 +168,9 @@ nav.menu ul li a:hover:after {
         cursor: pointer;
     }
     .fa-bars{
-        display: contents;
+        
         font-size: 2rem;
-        position: relative;
+        position: absolute;
         top: 1rem;
         right: 1rem;
         color: var(--text-color);
